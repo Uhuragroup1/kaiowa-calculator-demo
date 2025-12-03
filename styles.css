@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+    color: #003366;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+    color: #004F9F;
+}
+
+p {
+    color: #555;
+}
+
+/* Contenedor principal */
+.calculator-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+/* Tarjetas */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    width: 320px;
+}
+
+.card h2 {
+    color: #004F9F;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Botón */
+button {
+    background: #78BC1F;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #6aad1b;
+}
+
+/* Resultados */
+.resultado .valor {
+    font-size: 28px;
+    font-weight: 700;
+    color: #004F9F;
+    margin-top: -10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    background: white;
+    margin-top: 40px;
+}

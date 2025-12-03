@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Kaiowa para Marcas</title>
+
+    <!-- Fuente Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <img src="https://kaiowa.com.co/wp-content/uploads/2024/10/kaiowa-logo.svg" class="logo" alt="Kaiowa Logo">
+        <h1>Calculadora para Marcas</h1>
+        <p>Proyecta la rentabilidad de ofrecer crédito con Kaiowa</p>
+    </header>
+
+    <div class="calculator-container">
+        <div class="card">
+
+            <h2>Ingresa tus datos</h2>
+
+            <label>Monto promedio de compra (COP)</label>
+            <input type="number" id="monto" placeholder="Ej: 300000">
+
+            <label>Número de ventas mensuales</label>
+            <input type="number" id="ventas" placeholder="Ej: 80">
+
+            <label>Tasa de comisión Kaiowa (%)</label>
+            <input type="number" id="tasa" placeholder="Ej: 5" value="5">
+
+            <button onclick="calcular()">Calcular</button>
+
+        </div>
+
+        <div class="card resultado">
+            <h2>Resultado</h2>
+            <p><strong>Ingresos por crédito:</strong></p>
+            <p class="valor" id="ingresos">$0</p>
+
+            <p><strong>Total transado mensual:</strong></p>
+            <p class="valor" id="total">$0</p>
+
+            <p><strong>Comisión que pagarías:</strong></p>
+            <p class="valor" id="comision">$0</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Calculadora demostrativa — Kaiowa © 2025</p>
+    </footer>
+
+    <!-- Archivo JS -->
+    <script src="script.js"></script>
+</body>
+</html>
